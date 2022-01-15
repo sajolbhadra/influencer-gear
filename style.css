@@ -28,6 +28,12 @@ body {
 .img{
     width: 80%;
     border-radius: 50px;
+    
+}
+.img:hover{
+    transform: scale(105%);
+    transition: .5s ease-in-out;
+    
 }
 .btn {
     display: flex;
@@ -150,6 +156,15 @@ body {
 .btn-blank{
     text-decoration: none;
     color: #e91e63;
+    border-radius: 20px;
+    padding: 3px 5px;
+}
+
+.btn-blank:hover{
+    background-color: #e91e63;
+    color: white;
+    transition: 1s ease-in-out;
+
 }
 
 .grid-logo{
