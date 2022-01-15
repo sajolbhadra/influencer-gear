@@ -42,9 +42,6 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 3em;
 }
-/* .item{
-    background-color: #AAAAAA;
-} */
 .grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -120,7 +117,7 @@ body {
     padding: 10px 0;
 }
 .margin{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .font-50{
     font-size: 50px;
@@ -184,6 +181,31 @@ body {
   color: white;
 }
 
+.input-field{
+    border: 1px solid #e91e63;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 1em .5em;
+    height: 30px;
+    width: 25%;
+}
+
+.query-field{
+    border: 1px solid #e91e63;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 1em 1em;
+    height: 60px;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
 /* ------------------Media Query------------------- */
 /* -------for Mobile Device---------- */
 @media only screen and (max-width:688px) {
@@ -206,6 +228,7 @@ body {
 /* ------Tablet Device-------- */
 @media only screen and (min-width:689px) and (max-width:992px) {
     .grid{
+        width: 100%;
      /* background-color: red;    */
      grid-template-columns: repeat(2, 1fr);
     }
