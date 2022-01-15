@@ -14,11 +14,18 @@
     <!-- CSS Style  -->
     <link rel="stylesheet" href="style.css" />
 
-    <!-- Google Font Bree Serif  -->
+    <!-- Google Font Bree Serif/ Poppins  -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Lobster&display=swap" rel="stylesheet"> -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Lobster&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Lobster&family=Poppins:wght@500&display=swap"
+        rel="stylesheet">
 
+    <!-- website-Logo  -->
     <link rel="shortcut icon" href="logos/Target.svg" type="image/x-icon">
 </head>
 
@@ -26,7 +33,7 @@
 
     <header>
         <nav class="nav">
-            <div class="flex nav">
+            <div class="flex nav container">
                 <h2>Influencer Products</h2>
                 <div class="flex menu">
                     <a href="https://linkedin.com/in/sajolbhadra">Home</a>
@@ -40,42 +47,63 @@
             </div>
         </nav>
 
-        <div class=" header grid-duel">
+        <div class=" header grid-duel ">
             <div class="flex-center ">
                 <div class="">
-                    <h1 class="padding font">Start Your Journey as</h1>
-                    <h1 class="padding font">Influencer</h1>
-                    <p class="padding margin">Influence the Social with a positive and good motive.</p>
-                   <a class="btn " href="https://linkedin.com/in/sajolbhadra"> Contact Here <i
-                                class="fas fa-arrow-right text-white"></i></a>
+                    <h1 class="padding font-50 weight-700 height-70">Start Your Journey as</h1>
+                    <h1 class="padding font-50 weight-700 ">Influencer</h1>
+                    <p class="padding margin weight-600">Influence the Social with a positive and good motive.</p>
+                    <a class="btn " href="https://linkedin.com/in/sajolbhadra"> Contact Here <i
+                            class="fas fa-arrow-right text-white"></i></a>
                 </div>
             </div>
-            <div>
+            <div class="flex-center">
                 <img src="images/circle-camera.jpg" alt="">
             </div>
         </div>
     </header>
 
     <main>
-        <!-- Brand Logos -->
-        <section class="flex logo padding">
-            <hr>
-            <img src="logos/Alibaba.svg" alt="">
-            <img src="logos/Amazon.svg" alt="">
-            <img src="logos/Daraz.pk Logo.svg" alt="">
-            <img src="logos/Ebay.svg" alt="">
-            <img src="logos/Rakuten.svg" alt="">
-            <img src="logos/Walmart.svg" alt="">
-            <img src="logos/Target.svg" alt="">
-            <hr>
+        <!-- ------------------Brand Logos--------------- -->
+        <!-- <hr class="container"> -->
+        <section class="padding container grid-logo">
+            
+                <img src="logos/Alibaba.svg" alt="">
+                <img src="logos/Amazon.svg" alt="">
+                <img src="logos/Daraz.pk Logo.svg" alt="">
+                <img src="logos/Ebay.svg" alt="">
+            
+                <img src="logos/Rakuten.svg" alt="">
+                <img src="logos/Walmart.svg" alt="">
+                <img src="logos/Target.svg" alt="">
+            
         </section>
+            <!-- <hr class="container"> -->
 
-
+        <!-- ---------------------Items--------------------- -->
         <section class="item-container">
             <h2 class="flex-center">Popular Collection</h2>
             <div class="grid container item">
                 <div class="card ">
-                    <img  src="/images/drone.png" alt="">
+                    <img src="/images/drone.png" alt="">
+                    <h3 class="padding font-28">Flex Tripod</h3>
+                    <h4 class="padding font-24">$50.48</h4>
+                    <div>
+                        <div class="flex">
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star empty"></i>
+                            <p>4.99</p>
+                        </div>
+                        <p class="font-14">Worldwide shifting</p>
+                        <p class="font-14">available</p>
+                        <p class="font-14">Buyers Protection Possible</p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <img src="images/drone.png" alt="">
                     <h3 class="padding">Flex Tripod</h3>
                     <h4 class="padding">$50.48</h4>
                     <div>
@@ -93,7 +121,7 @@
                     </div>
                 </div>
                 <div class="card ">
-                    <img  src="images/drone.png" alt="">
+                    <img src="/images/drone.png" alt="">
                     <h3 class="padding">Flex Tripod</h3>
                     <h4 class="padding">$50.48</h4>
                     <div>
@@ -111,7 +139,7 @@
                     </div>
                 </div>
                 <div class="card ">
-                    <img  src="/images/drone.png" alt="">
+                    <img src="/images/drone.png" alt="">
                     <h3 class="padding">Flex Tripod</h3>
                     <h4 class="padding">$50.48</h4>
                     <div>
@@ -129,7 +157,7 @@
                     </div>
                 </div>
                 <div class="card ">
-                    <img  src="/images/drone.png" alt="">
+                    <img src="/images/drone.png" alt="">
                     <h3 class="padding">Flex Tripod</h3>
                     <h4 class="padding">$50.48</h4>
                     <div>
@@ -147,7 +175,7 @@
                     </div>
                 </div>
                 <div class="card ">
-                    <img  src="/images/drone.png" alt="">
+                    <img src="/images/drone.png" alt="">
                     <h3 class="padding">Flex Tripod</h3>
                     <h4 class="padding">$50.48</h4>
                     <div>
@@ -165,7 +193,7 @@
                     </div>
                 </div>
                 <div class="card ">
-                    <img  src="/images/drone.png" alt="">
+                    <img src="/images/drone.png" alt="">
                     <h3 class="padding">Flex Tripod</h3>
                     <h4 class="padding">$50.48</h4>
                     <div>
@@ -183,7 +211,7 @@
                     </div>
                 </div>
                 <div class="card ">
-                    <img  src="/images/drone.png" alt="">
+                    <img src="/images/drone.png" alt="">
                     <h3 class="padding">Flex Tripod</h3>
                     <h4 class="padding">$50.48</h4>
                     <div>
@@ -201,7 +229,7 @@
                     </div>
                 </div>
                 <div class="card ">
-                    <img  src="/images/drone.png" alt="">
+                    <img src="/images/drone.png" alt="">
                     <h3 class="padding">Flex Tripod</h3>
                     <h4 class="padding">$50.48</h4>
                     <div>
@@ -218,35 +246,18 @@
                         <p>Buyers Protection Possible</p>
                     </div>
                 </div>
-                <div class="card ">
-                    <img  src="/images/drone.png" alt="">
-                    <h3 class="padding">Flex Tripod</h3>
-                    <h4 class="padding">$50.48</h4>
-                    <div>
-                        <div class="flex">
-                            <i class="fas fa-star filled"></i>
-                            <i class="fas fa-star filled"></i>
-                            <i class="fas fa-star filled"></i>
-                            <i class="fas fa-star filled"></i>
-                            <i class="fas fa-star empty"></i>
-                            <p>4.99</p>
-                        </div>
-                        <p>Worldwide shifting</p>
-                        <p>available</p>
-                        <p>Buyers Protection Possible</p>
-                    </div>
-                </div>
-               
-                
+
+
 
             </div>
         </section>
     </main>
 
+    <!-- -----------------Footer Section----------------- -->
     <footer class="footer flex column">
-        <h2>Influencer Products</h2>
-        <p>Copyright <span>&copy</span> 2022 influencer products</p>
-        <p>All rights reserved</p>
+        <h2 class="font-24 weight-700">Influencer Products</h2>
+        <p class="font-14">Copyright <span>&copy</span> 2022 influencer products</p>
+        <p class="font-14">All rights reserved</p>
 
         <div>
             <i class="fab fa-facebook icon"></i>
