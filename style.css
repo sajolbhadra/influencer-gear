@@ -24,6 +24,10 @@ body {
     font-weight: 600;
 
 }
+.img{
+    width: 80%;
+    border-radius: 50px;
+}
 .btn {
     display: flex;
     justify-content: space-evenly;
@@ -144,7 +148,6 @@ body {
 .grid-logo{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    /* grid-column-gap: 20px; */
     justify-content: center;
     align-items: center;
     padding-top: 50px ;
@@ -160,7 +163,7 @@ body {
 
 .icon{
     padding: 12px 5px;
-    margin: 12px 5px;
+    margin: 12px 12px;
     /* height: 32px;
     width: 32px; */
     border: 2px solid white;
@@ -198,9 +201,15 @@ body {
     height: 60px;
     width: 50%;
 }
-
-
-
+.form{
+    /* border: 1px solid red; */
+    box-shadow: 100px .5px 1px 1px gray;
+    padding: 30px 30px;
+}
+.none{
+    text-decoration: none;
+    color: white;
+}
 
 
 
@@ -221,6 +230,12 @@ body {
         grid-template-columns: repeat(1, 1fr);
         display: flex;
         flex-direction: column-reverse;
+    }
+    .flex-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
