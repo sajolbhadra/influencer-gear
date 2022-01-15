@@ -9,6 +9,7 @@ body {
 }
 .container{
     margin: 2% 20%;
+
 }
 /* -----------------Header-------------- */
 .nav{
@@ -41,6 +42,7 @@ body {
     border-radius: 20px;
     padding: 10px 30px;
 }
+
 .grid-duel{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -79,6 +81,9 @@ body {
 .text-white{
     color: white;
 }
+.text-pink{
+    color: #e91e63;
+}
 .radius{
     border-radius: 30px;
 }
@@ -100,6 +105,12 @@ body {
     align-items: center;
     width: auto;
 }
+.flex-right{
+    justify-content: flex-end;
+    align-items: center;
+    width: auto;
+}
+
 .align-center{
     display: flex;
     flex-direction: column;
@@ -136,7 +147,10 @@ body {
 .weight-600{
     font-weight: 600;
 }
-
+.btn-blank{
+    text-decoration: none;
+    color: #e91e63;
+}
 
 .grid-logo{
     display: grid;
