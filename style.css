@@ -13,8 +13,9 @@ body {
 
 .nav{
     justify-content: space-around;
-    padding-top: 90px;
+    padding-top: 20px;
     align-items: center;
+    padding-bottom: 40px;
 }
 .menu a, .fas{
     text-decoration: none;
@@ -24,12 +25,14 @@ body {
 
 }
 .btn {
-    margin: 15px 0;
-}
-.btn a{
+    display: flex;
+    justify-content: space-evenly;
+    width: 196px;
     text-decoration: none;
     background-color: #e91e63;
     color: white;
+    margin-top: 20px;  
+    border: none;
     border-radius: 20px;
     padding: 10px 30px;
 }
@@ -38,19 +41,47 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 3em;
 }
+/* .item{
+    background-color: #AAAAAA;
+} */
 .grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 3em;
+    grid-row-gap: 30px;
 }
 .card{
-    border: 2px solid red;
-    min-height: 350px;
+    /* border: 2px solid red; */
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    background-color: white;
+    max-height: 476px;
+    max-width: 329px;
+    margin: auto;
+    padding: 10px 10px;
+    border-radius: 5px;
+    /* box-shadow: ; */
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 5px 5px #AAAAAA;
+}
+.filled{
+    padding-right: 2px;
+    color: orange;
+}
+.empty{
+    color: rgb(235, 224, 224);
+}
+.text-white{
+    color: white;
+}
+.radius{
     border-radius: 30px;
-
 }
 .card img{
-    
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    height: 256px;
+    width: 300px;
 }
 .flex{
     display: flex;
@@ -58,18 +89,26 @@ body {
 .flex-start{
     display: flex;
     flex-direction: column;
-    /* justify-content: left; */
+    justify-content: left;
     align-items: center;
 }
 .flex-center{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
 }
+.item-container{
+    margin: 100px 0;
+}
+.item-container > h2{
+    margin: 50px 0;
+}
 .padding{
     padding: 10px 0;
-    
+}
+.margin{
+    margin-bottom: 20px;
 }
 .font{
     font-size: 50px;
@@ -88,8 +127,10 @@ body {
 .icon{
     padding: 12px 5px;
     margin: 12px 5px;
+    height: 32px;
+    width: 32px;
     border: 1px solid white;
-    background-color: rgba(69, 79, 151, 0.746);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 60%;
 }
 .icon:hover{
