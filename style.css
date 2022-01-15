@@ -7,6 +7,9 @@ body {
   /* font-family: 'Lobster', cursive; */
 }
 
+.container{
+    padding: 5% 10%;
+}
 
 .nav{
     justify-content: space-around;
@@ -15,17 +18,61 @@ body {
 }
 .menu a, .fas{
     text-decoration: none;
-    
-    padding-left: 30px;
+    padding-right: 2em;
+    color: black;
+    font-weight: 600;
+
 }
-/* .menu .fas{
-    padding-left: 30px;
-} */
+.btn {
+    margin: 15px 0;
+}
+.btn a{
+    text-decoration: none;
+    background-color: #e91e63;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+.grid-duel{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3em;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 3em;
+}
+.card{
+    border: 2px solid red;
+    min-height: 350px;
+    border-radius: 30px;
+
+}
+.card img{
+    
+}
 .flex{
     display: flex;
 }
+.flex-start{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: left; */
+    align-items: center;
+}
+.flex-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .padding{
-    padding: 50px 50px;
+    padding: 10px 0;
+    
+}
+.font{
+    font-size: 50px;
 }
 .logo{
 
@@ -33,7 +80,6 @@ body {
     align-items: center;
 }
 .column{
-
   flex-direction: column;
   justify-content: center;
   align-items: center;
